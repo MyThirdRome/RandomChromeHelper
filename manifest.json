@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Random Content Generator",
+  "version": "1.0",
+  "description": "Generates random quotes, facts, colors, and jokes when clicked",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.svg",
+      "48": "icon.svg",
+      "128": "icon.svg"
+    }
+  },
+  "icons": {
+    "16": "icon.svg",
+    "48": "icon.svg",
+    "128": "icon.svg"
+  },
+  "permissions": [],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

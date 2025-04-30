@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4285f4" />
+      <stop offset="25%" stop-color="#0f9d58" />
+      <stop offset="50%" stop-color="#db4437" />
+      <stop offset="75%" stop-color="#f4b400" />
+      <stop offset="100%" stop-color="#4285f4" />
+    </linearGradient>
+  </defs>
+  <circle cx="64" cy="64" r="60" fill="url(#gradient)" />
+  <circle cx="64" cy="64" r="50" fill="white" fill-opacity="0.2" />
+  <g fill="white">
+    <circle cx="44" cy="44" r="8" />
+    <circle cx="84" cy="44" r="8" />
+    <circle cx="44" cy="84" r="8" />
+    <circle cx="84" cy="84" r="8" />
+    <circle cx="64" cy="64" r="10" />
+    
+    <!-- Random dots -->
+    <circle cx="30" cy="64" r="4" />
+    <circle cx="98" cy="64" r="4" />
+    <circle cx="64" cy="30" r="4" />
+    <circle cx="64" cy="98" r="4" />
+  </g>
+</svg>
